@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/bottom_navigation"
+            app:startDestination="@id/home">
+
+    <fragment android:id="@+id/home" android:name="com.cms.cmsapp.HomeFragment"
+              android:label="home" tools:layout="@layout/fragment_home"/>
+
+    <fragment android:id="@+id/favorites" android:name="com.cms.cmsapp.FavoriteFragment"
+              android:label="favorite" tools:layout="@layout/fragment_favorite"/>
+
+    <fragment android:id="@+id/search" android:name="com.cms.cmsapp.SearchFragment"
+              android:label="fragment_search" tools:layout="@layout/fragment_search"/>
+
+    <fragment android:id="@+id/media" android:name="com.cms.cmsapp.MediaFragment"
+        android:label="fragment_media" tools:layout="@layout/fragment_media"/>
+
+    <fragment android:id="@+id/more" android:name="com.cms.cmsapp.MoreFragment"
+        android:label="fragment_more" tools:layout="@layout/fragment_more"/>
+
+</navigation>
